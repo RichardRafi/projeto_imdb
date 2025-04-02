@@ -67,7 +67,7 @@ O repositório está estruturado da seguinte forma:
 
 No primeiro modelo, vemos que o modelo tem uma taxa de acerto de aproximadamente 87% do conjunto de teste, além de ter uma perda de 0.3174, contudo, no predict, vemos que há um ganho baixo de acurácia no modelo após o 10º `epoch`, enquanto no `val_loss` demonstra também estagnação, o que demonstra que o modelo está em overfitting. 
 
-![modelo](imagens/modelo1.png)
+![modelo1](imagens/modelo1.png)
 ![accuracy](imagens/accuracy.png)
 
 Após o 2º modelo ter uma perda alta de 0.73 após a inserção do LSTM, foi colocado um `dropout` de 0.5 em busca de reduzir o overfitting, o resultado foi meelhor comparado ao modelo 2, onde houve uma redução de 0.73 a 0.36 na taxa de perda, enquanto a acurácia ficou com 84.9%.
@@ -88,14 +88,6 @@ Verificamos que o Modelo 1 teve um desempenho fraco na NR2, o que indica dificul
 ## Como reproduzir o projeto
 
 O projeto foi desenvolvido utilizando o Python 3.12.5. Para reproduzir o projeto, crie um ambiente virtual com o Conda, ou ferramenta similar, com o Python 3.12.5 e instale as bibliotecas abaixo:
-
-|  Biblioteca   |  Versão | 
-| ------------- | ------- |
-|Matplotlib     |  3.9.2  |
-|NumPy          |  2.1.3  |
-|Pandas         |  2.2.2  |
-|Scikit-Learn   |  1.5.1  |
-|Seaborn        |  0.13.2 |
 
 
 |  Biblioteca   |  Versão |
