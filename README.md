@@ -29,7 +29,9 @@ As principais bibliotecas utilizadas do Python foram:
 
 Este projeto foi desenvolvido no curso de Ciência de Dados da [Hashtag Treinamentos](https://www.hashtagtreinamentos.com/) e demonstra a aplicação prática de Deep Learning e técnicas para construção e avaliação de métricas do modelo no TensorFlow e Keras.
 
-<a href="https://www.linkedin.com/in/richardrafi/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+<p align="center"
+    <a href="https://www.linkedin.com/in/richardrafi/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+</p>
 
 ## Objetivos
 
