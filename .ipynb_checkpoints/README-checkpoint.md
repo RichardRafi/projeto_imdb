@@ -41,11 +41,9 @@ Ao final, além de avaliar o desempenho do modelo, testamos também com avaliaç
 
 Objetivos detalhados:
 
-- Passo 1: O primeiro passo foi explorar e tratar os dados utilizando a biblioteca Pandas e Seaborn. Para agilizar o processo de análise e facilitar a obtenção de insights, utilizei a biblioteca ydata_profiling, que gerou um relatório em HTML com estatísticas descritivas, valores ausentes, distribuição de variáveis e correlações. Isso permitiu entender melhor as características dos clientes e identificar possíveis tratamentos que poderiam ser feitos na base de dados, caso necessário.
-  
-- Passo 2: Para agrupar os clientes com perfis semelhantes, foi implementado um modelo de clustering utilizando o Scikit-Learn. O pré-processamento incluiu a aplicação do Método do Cotovelo e da Silhueta com o K-Means para determinar o número ideal de clusters a ser utilizado no pipeline, posteriormente, foi gerado o gráfico de dispersão, gráfico de caixa e um gráfico tridimensional para identificar o posicionamento dos centróides e dos pontos dos clusters, além de analisar tendências baseadas no gênero, a faixa de idade, renda e pontuação de gasto dos clientes.
+- Passo 1: Realizar a separação do modelo em treino e teste, além de fazer manipulação de strings e realizar a compilação, a definição, em especial o uso do `Embedding` e o fit do modelo Keras e analisar as suas métricas e a eficiência e se o modelo consegue prever uma resenha de forma correta. Além disso, inseriu-se resenhas customizadas para o modelo realizar previsões de acordo com o sentimento da avaliação.
 
-- Passo 3: Similar ao passo 2, a diferença é que esta etapa, foi aplicada a técnica de Redução de Dimensionalidade com PCA dentro do pipeline de Machine Learning. A comparação dos resultados com e sem PCA demonstrou que, embora a estrutura dos clusters tenha se mantido semelhante, não houve diferença significativa nos resultados entre o modelo com ou sem redução de dimensionalidade, e sim, a diferença da segmentação dos clientes em cada cluster.
+- Passo 2: No 2º e 3º modelo, foram realizadas alterações no modelo, com o uso de RNNs (Redes Neurais Recorrentes), e a diminuição da taxa de aprendizado para buscar melhorar as métricas com o `LSTM` e  com o `dropout`, que é uma técnica de regularização que busca reduzir o overfitting do modelo, e comparamos os resultados do modelo com os anteriores.
 
 ## Estrutura do repositório
 
